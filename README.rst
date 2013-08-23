@@ -13,18 +13,17 @@ Future Features
 ---------------
 - Everything supported by the python-digitalocean_ module
 
-  - domain
-  - droplet
-  - event
-  - image
-  - manager
-  - record
-  - region
-  - sshkey
-  - size
+  ==========   ==========   ==========
+  ----------   ----------   ----------
+  *domain*     *image*      *region*
+  *droplet*    *manager*    *sshkey*
+  *event*      *record*     *size*
+  ==========   ==========   ==========
 
 - Settings file (a good place to keep that long API key)
 - Pretty output
+- Extensible with custom commands
+- Shell and curses modes
 
 .. _python-digitalocean: https://github.com/koalalorenzo/python-digitalocean
 
