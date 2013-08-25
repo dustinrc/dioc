@@ -24,6 +24,7 @@ Future Features
 - Pretty output
 - Extensible with custom commands
 - Shell and curses modes
+- Support bootstrap scripts
 
 .. _python-digitalocean: https://github.com/koalalorenzo/python-digitalocean
 
