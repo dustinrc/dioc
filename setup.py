@@ -72,6 +72,14 @@ setup(
         'Intended Audience :: Developers',
         'Environment :: Console',
     ],
-    entry_points={},
+    entry_points={
+        'console_scripts': [
+            'dioc = dioc.app:main',
+        ],
+        'dioc.core': [
+        ],
+        'dioc.ext': [
+        ],
+    },
     cmdclass={'clean_sdist': CleanSDist}
 )
